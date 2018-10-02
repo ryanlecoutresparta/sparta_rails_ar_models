@@ -1,0 +1,16 @@
+<p id="notice"><%= notice %></p>
+
+<h2>Your Chosen Trainer:</h2>
+
+<p>
+  <strong>Name:</strong>
+  <%= @trainer.name %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @trainer.age %>
+</p>
+
+<h4><%= link_to 'Edit', edit_trainer_path(@trainer) %></h4>
+<h4><%= link_to 'Back', trainers_path %></h4>

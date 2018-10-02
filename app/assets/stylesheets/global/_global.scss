@@ -1,0 +1,29 @@
+body {
+  background-image: url('pic2.jpg');
+  background-size: cover;
+  table {
+    width: 50%;
+    margin-left: 20px;
+    td, th {
+      padding: 10px 0px;
+      border-bottom: 1px solid black;
+    }
+  }
+}
+
+.navbar {
+  background-color: rgb(96, 203, 79);
+  .navbar-brand {
+    padding-right: 20px;
+  }
+  .nav-link {
+    border-left: 5px white solid;
+    width: 200px;
+    text-align: center;
+    margin-left: -20px;
+  }
+}
+
+.jumbotron {
+  opacity: 0.4;
+}

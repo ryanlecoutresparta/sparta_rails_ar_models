@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<h2>Your Chosen Pokemon:</h2>
+
+<p>
+  <strong>Name:</strong>
+  <%= @pokemon.name %>
+</p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @pokemon.pokemon_type %>
+</p>
+
+<p>
+  <strong>Level:</strong>
+  <%= @pokemon.level %>
+</p>
+
+<p>
+  <strong>Trainer:</strong>
+  <%= @pokemon.trainer_id %>
+</p>
+
+
+<h4><%= link_to 'Edit', edit_pokemon_path(@pokemon) %></h4>
+<h4><%= link_to 'Back', pokemons_path %></h4>
